@@ -7,7 +7,7 @@ public class Tower  extends Electronics {
 
 
 
-    public Tower(UUID id, String make, String assignedTo, String assigner, String availability, String status, String ram) {
+    public Tower(UUID id, String make, String assignedTo, String assigner, String availability, String status) {
         super(id, "Tower", make, assignedTo, assigner, availability, status);
     }
 
